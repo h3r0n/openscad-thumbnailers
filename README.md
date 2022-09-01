@@ -2,7 +2,7 @@
 
 ![](screenshot.png)
 
-This project allows GTK file managers (Nautilus, Nemo, Caja and PCManFM-gtk) to show thumbnails for `.stl` and `.scad` files.
+This project allows most GTK file managers (Nautilus, Nemo, Caja and PCManFM-gtk) to show thumbnails for `.stl` and `.scad` files.
 
 It also **works with Nautilus>=3.28**, which introduced thumbnailers sandboxing with bubblewrap.
 
