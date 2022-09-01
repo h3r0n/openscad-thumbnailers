@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/usr/local/bin/stl-thumbnailer-script
+Exec=/usr/local/bin/stl-thumbnailer-script %i %s %o
+MimeType=application/sla;model/x.stl-binary;model/stl;model/x.stl-ascii;

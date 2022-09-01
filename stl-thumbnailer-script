@@ -1,0 +1,16 @@
+#!/bin/bash
+
+in_file="$1"
+size="$2"
+out_file="$3"
+
+Xvfb :100 -ac &
+PID1=$!
+export DISPLAY=:100.0
+/bin/openscad --colorscheme="Tomorrow" --imgsize=$size,$size --export-format=png -o $out_file <(echo "import(\"/tmp/$(basename $in_file)\");")
+/usr/bin/convert $out_file -fuzz 20% -transparent white $out_file
+
+rm -f /tmp/.X100-lock
+rm -rf /tmp/.X11-unix
+
+kill -9 $PID1

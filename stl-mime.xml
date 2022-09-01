@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="application/sla">
+        <comment>Stereolithography</comment>
+        <glob pattern="*.stl"/>
+    </mime-type>
+    <mime-type type="model/x.stl-binary">
+        <comment>Stereolithography binary</comment>
+        <glob pattern="*.stl"/>
+    </mime-type>
+    <mime-type type="model/stl">
+        <comment>Stereolithography stl</comment>
+        <glob pattern="*.stl"/>
+    </mime-type>
+    <mime-type type="model/x.stl-ascii">
+        <comment>Stereolithography ASCII</comment>
+        <glob pattern="*.stl"/>
+    </mime-type>
+</mime-info>

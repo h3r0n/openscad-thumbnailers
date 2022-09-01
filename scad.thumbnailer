@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/usr/local/bin/scad-thumbnailer-script
+Exec=/usr/local/bin/scad-thumbnailer-script %i %s %o
+MimeType=text/x-scad;application/x-openscad;

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="text/x-scad">
+        <comment>Openscad document</comment>
+        <glob pattern="*.scad"/>
+    </mime-type>
+    <mime-type type="application/x-openscad">
+        <comment>Openscad document</comment>
+        <glob pattern="*.scad"/>
+    </mime-type>
+</mime-info>
